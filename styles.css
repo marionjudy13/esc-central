@@ -679,7 +679,6 @@ main.dealer {
   }
 
   ul li > a {
-    text-decoration: none;
     color: var(--redDark);
     font-weight: 500;
     transition: color 0.3s ease;
