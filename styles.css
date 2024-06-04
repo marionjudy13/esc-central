@@ -515,7 +515,8 @@ footer {
 
   address a {
     text-decoration: none;
-    color: var(--red);
+    color: #fff;
+    border-bottom: 1px solid var(--red);
     margin-left: 3px;
   }
 
@@ -600,6 +601,7 @@ footer {
   }
 }
 
+/* ******************************** */
 /* DEALER PAGE */
 main.dealer {
   background-color: #fff;
