@@ -454,12 +454,20 @@ header {
 /* EXPERT TRAINING */
 .expert {
   background-color: #fff;
+  h2 {
+    width: 100%;
+  }
   p {
     margin-bottom: 40px;
   }
   img {
     width: 60vw;
     margin: auto;
+  }
+  img.monitoringStaff {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 20px;
   }
 }
 
@@ -474,6 +482,11 @@ header {
     }
     p {
       margin-bottom: 0;
+    }
+    img.monitoringStaff {
+      width: 100%;
+      max-width: 250px;
+      margin: 0 0 20px 0;
     }
     .copy {
       display: flex;
